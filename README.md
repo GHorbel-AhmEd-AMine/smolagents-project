@@ -88,7 +88,7 @@ This example shows how the agent uses DuckDuckGo for information searching and t
    python stock_market_agent.py
    ```
 
-### Example 2: agentic_rag.py
+### Example 3: agentic_rag.py
 This example demonstrates how to use a Retrieval-Augmented Generation (RAG) agent to retrieve and process information from a PDF document using semantic search.
 
 **How it works:**
