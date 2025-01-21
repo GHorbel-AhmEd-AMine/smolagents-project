@@ -1,6 +1,6 @@
 # SmolAgents
 
-SmolAgents is a lightweight library designed by Hugging Face to simplify the creation and execution of AI agents. It encapsulates agent logic in around 1,000 lines of code and supports both Code Agents and ToolCallingAgents. SmolAgents integrates seamlessly with LLMs like Hugging Face, OpenAI, Anthropic, and more.
+SmolAgents is a lightweight library designed by Hugging Face (https://huggingface.co/) to simplify the creation and execution of AI agents. It encapsulates agent logic in around 1,000 lines of code and supports both Code Agents and ToolCallingAgents. SmolAgents integrates seamlessly with LLMs like Hugging Face, OpenAI, Anthropic, and more.
 
 ## Why Choose SmolAgents?
 
@@ -34,8 +34,9 @@ SmolAgents is a lightweight library designed by Hugging Face to simplify the cre
    ``` 
 3. Clone this repository to your local machine: 
    ```
-   git clone https://github.com/huggingface/smolagents.git
-   cd smolagents 
+   [git clone https://github.com/huggingface/smolagents.git](https://github.com/GHorbel-AhmEd-AMine/smolagents-project.git)
+   cd smolagents-project
+   If u want the official github of hugging face : git clone https://github.com/huggingface/smolagents.git
    ``` 
 4. Install the required dependencies:
    ```
