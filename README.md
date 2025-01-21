@@ -87,6 +87,31 @@ This example shows how the agent uses DuckDuckGo for information searching and t
    python stock_market_agent.py
    ```
 
+### Example 2: agentic_rag.py
+This example demonstrates how to use a Retrieval-Augmented Generation (RAG) agent to retrieve and process information from a PDF document using semantic search.
+
+**How it works:**
+
+    - Loads an OpenAI API key from a .env file.
+    - Loads and splits a PDF document into chunks using PyPDFLoader and RecursiveCharacterTextSplitter.
+    - Creates a FAISS vector database for semantic search.
+    - Uses a custom RetrieverTool to retrieve relevant documents based on a query.
+    - Runs the agent with a GPT-4 model to process the query and return relevant information.
+
+**Instructions:**
+
+1. Create a .env file and add your OpenAI API key:
+   ```bash
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+2. Place your PDF document in the Content folder and update the PDF_PATH variable in the script with the correct path.
+
+3. Run the script:
+   ```bash
+   python agentic_rag.py
+   ```
+
+
 ## Contributing
 
 Contributions are welcome! To contribute:
